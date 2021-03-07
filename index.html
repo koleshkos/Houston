@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/style.css">
     <title>Houston</title>
   </head>
   <body>
@@ -38,7 +39,7 @@
       </p>
     </div>
     <div>
-      <h1>Содержание</h1>
+      <h2>Содержание</h2>
       <ol>
         <li>
           <a href="#history">История</a>
@@ -76,8 +77,8 @@
       </ol>
     </div>
     <div>
-      <h1 id="history">История</h1>
-      <h2 id="etymology">Этимология, прозвища</h2>
+      <h2 id="history">История</h2>
+      <h3 id="etymology">Этимология, прозвища</h3>
       <figure>
         <img
           src="./img/Sam_Houston_portrait.jpg"
@@ -181,9 +182,9 @@
       </p>
     </div>
     <div>
-      <h1 id="phys-geo">Физико-географическая характеристика</h1>
+      <h2 id="phys-geo">Физико-географическая характеристика</h2>
       <div>
-        <h2 id="climate">Географическое положение и климат</h2>
+        <h3 id="climate">Географическое положение и климат</h3>
         <figure>
           <img
             src="/img/Large_Houston_Landsat.jpg"
@@ -274,7 +275,7 @@
         </table>
       </div>
       <div>
-        <h2 id="relief">Рельеф, внутренние воды</h2>
+        <h3 id="relief">Рельеф, внутренние воды</h3>
         <p>
           Для почв Хьюстона характерно наличие осадочных горных пород и песка.
           На поверхности часты эрозии, на территории города находится около 300
@@ -302,7 +303,7 @@
         </p>
       </div>
       <div>
-        <h2 id="flora">Флора и фауна</h2>
+        <h3 id="flora">Флора и фауна</h3>
         <figure>
           <img
             src="/img/Discovery_green.jpg"
@@ -335,10 +336,10 @@
     </div>
 
     <div>
-      <h1 id="economy">Экономика</h1>
+      <h2 id="economy">Экономика</h2>
       <div>
-        <h2 id="basic_state">Общее состояние</h2>
-        <table>
+        <h3 id="basic_state">Общее состояние</h3>
+        <table class="economy">
           <caption>
             <b
               >Крупнейшие компании, базирующиеся в Хьюстоне по версии Fortune
@@ -500,7 +501,7 @@
         </p>
       </div>
       <div>
-        <h2 id="energy">Энергетика и нефтехимия</h2>
+        <h3 id="energy">Энергетика и нефтехимия</h3>
         <p>
           В Хьюстоне находится более 5 тысяч энергетических компаний, связанных
           с ведением бизнеса в этом регионе. В городе находятся штаб-квартиры
@@ -547,7 +548,7 @@
         </p>
       </div>
       <div>
-        <h2 id="airecraft">Авиакосмическая промышленность</h2>
+        <h3 id="airecraft">Авиакосмическая промышленность</h3>
         <figure>
           <img
             src="/img/Aerial_View_of_the_Johnson_Space_Center.jpg"
@@ -588,12 +589,12 @@
       </div>
     </div>
 
-    <div>
-      <h1 id="population">Население</h1>
+    <div class="population">
+      <h2 id="population">Население</h2>
       <div>
-        <h2 id="dinamic">Динамика и структура населения</h2>
-        <table>
-          <caption>
+        <h3 id="dinamic">Динамика и структура населения</h3>
+        <table class="population-table">
+          <caption class="top">
             <b>Перепись населения</b>
           </caption>
           <tr>
@@ -691,8 +692,10 @@
             <td>2 319 603</td>
             <td>10.4%</td>
           </tr>
+          <caption class="bottom">
+            <p>1850-2017 Переписи населения в 1790—2010 годах</p>
+          </caption>
         </table>
-        <p>1850-2017 Переписи населения в 1790—2010 годах</p>
         <figure>
           <img
             src="/img/Race_and_ethnicity_2010_Houston.png"
@@ -718,7 +721,7 @@
         </p>
       </div>
       <div>
-        <h2 id="languege">Этнический и конфессиональный состав, языки</h2>
+        <h3 id="languege">Этнический и конфессиональный состав, языки</h3>
         <p>
           Из-за близости к Мексике доля выходцев из Латинской Америки составляет
           43,8 % от всего населения. В абсолютных цифрах численность
@@ -754,7 +757,7 @@
       </div>
     </div>
     <div>
-      <h1 id="smi">Средства массовой информации</h1>
+      <h2 id="smi">Средства массовой информации</h2 >
       <figure>
         <img src="/img/Melcher_Center_for_Public_Broadcasting.jpg"
         alt="Вещательный центр, откуда вещают радиостанции KUHT и KUHF
@@ -789,7 +792,7 @@
       </p>
     </div>
     <div>
-      <h1 id="city">Города-побратимы</h1>
+      <h2 id="city">Города-побратимы</h2>
       <p>
         Согласно городскому сайту, у Хьюстона 18 городов-побратимов (в последний
         раз этот список расширялся в 2015 году, когда к нему присоединилась

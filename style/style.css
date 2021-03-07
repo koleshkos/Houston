@@ -1,0 +1,43 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-family: arial;
+}
+
+h1, h2 {
+    margin-top: 1.5em;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+figcaption {
+    font-style: oblique;
+}
+
+figure {
+    float: right;
+    margin: 5px 15px 15px 15px;
+}
+
+.economy {
+    width: 70%;
+}
+
+.population-table{
+    margin-left: 20px;
+}
+
+.bottom {
+    margin-left: 20px;
+    font-style: oblique;
+    caption-side: bottom;
+}
+
